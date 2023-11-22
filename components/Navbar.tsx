@@ -1,10 +1,13 @@
 'use client';
 
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import NavLink from './NavLink';
 import Image from 'next/image';
+import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
+import { useEffect, useState } from 'react';
+
+import NavLink from './NavLink';
+
+
 
 const Navbar = () => {
   const [state, setState] = useState(false);
@@ -43,7 +46,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link href="/" className="flex items-center gap-3">
               <Image src="/box.svg" alt="logo" width={30} height={30} />
-              <div className="font-bold text-lg">QrGPT</div>
+              <div className="font-bold text-lg">AGQR</div>
             </Link>
             <div className="md:hidden">
               <button

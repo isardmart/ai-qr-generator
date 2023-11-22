@@ -1,5 +1,7 @@
 import { V0Logo } from './v0logo';
 
+
+
 const Footer = () => (
   <footer>
     <div className="custom-screen pt-16">
@@ -10,14 +12,14 @@ const Footer = () => (
             href="https://twitter.com/nutlope"
             className="hover:underline transition"
           >
-            Hassan
+            Antoni
           </a>{' '}
-          and{' '}
+          Galí{' '}
           <a
             href="https://twitter.com/kevinhou22"
             className="hover:underline transition"
           >
-            Kevin
+            Gimeno
           </a>
           .
         </p>
